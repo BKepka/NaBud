@@ -1,0 +1,197 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Baskerville", "Arial";
+	color: #33333;
+	line-height: 1.5;
+}
+
+
+.container {
+	position: relative;
+	width: 92%;
+	margin: auto;
+	height: 100%;
+}
+
+.container img {
+  float: left;
+  width: 50%;
+}
+
+.container img:hover {
+  opacity: 70%;
+}
+
+
+.containerd {
+	position: relative;
+	width: 92%;
+	margin: auto;
+	height: 100%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-radius: 30px;
+	background-color: white;
+}
+
+.containerd img{
+	width: 50%;
+	margin: auto;
+	display: block;
+}
+
+.Row {
+    display: table;
+	margin: auto;
+    width: 70%; 
+	text-align: center;
+    table-layout: fixed; 
+    border-spacing: 10px; 
+}
+.Column {
+    display: table-cell;
+	background-color: white;
+	border-radius: 30px;
+}
+
+
+@media (max-width: 475px) {
+	.container {
+		max-width: 475px;
+	}
+	.containerd {
+		max-width: 475px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.Column {
+      font-size: 7px;
+}
+.Row {
+	width: 100%;
+	height: 25px;
+}
+}
+
+@media (min-width: 475px) {
+	.container {
+		max-width: 475px;
+	}
+	.containerd {
+		max-width: 475px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.Column {
+      font-size: 8px;
+}
+.Row {
+	width: 100%;
+	height: 25px;
+}
+}
+
+@media (min-width: 640px) {
+	.container {
+		max-width: 640px;
+	}
+	.containerd {
+		max-width: 640px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.Column {
+      font-size: 8px;
+}
+.Row {
+	width: 100%;
+	height: 25px;
+}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+	.containerd {
+		max-width: 768px;
+	}
+	p {
+		font-size: 26px;
+	}
+	.Column {
+      font-size: 16px;
+}
+.Row {
+	width: 85%;
+}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		max-width: 1024px;
+	}
+	.containerd {
+		max-width: 1024px;
+	}
+	p {
+		font-size: 18px;
+	}
+	.Column {
+      font-size: 16px;
+}
+.Row {
+	width: 80%;
+}
+}
+
+@media (min-width: 1536px) {
+	.container {
+		max-width: 1536px;
+	}
+	.containerd {
+		max-width: 1536px;
+	}
+	p {
+		font-size: 18px;
+	}
+	.Column {
+     font-size: 16px;
+}
+.Row {
+	width: 70%;
+}
+}
+
+header {
+	font-family: "Georgia", "Arial";
+	font-size: 4rem;
+	text-align: center;
+	background-image: url("bud4.png");
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: 0px;
+	border-radius: 0px;
+}
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 70%;
+}
+
+
+
+p {
+	padding: 10px;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-radius: 30px;
+	background-color: white;
+}
